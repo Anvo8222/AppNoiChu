@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/mipmap-mdpi-v26_ic_foreground.png.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/src/main/res/mipmap-mdpi-v26/ic_foreground.png"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_home_win.png.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_home_win.png"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/mipmap-ldpi_ic_launcher.png.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/src/main/res/mipmap-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_home_logo.png.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_home_logo.png"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/drawable_rn_edit_text_material.xml.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/src/main/res/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/mipmap-xxxhdpi-v26_ic_foreground.png.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/src/main/res/mipmap-xxxhdpi-v26/ic_foreground.png"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/mipmap-xxhdpi-v26_ic_foreground.png.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/src/main/res/mipmap-xxhdpi-v26/ic_foreground.png"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_home_barline.png.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_home_barline.png"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_home_banner.png.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_home_banner.png"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_home_panel.png.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_home_panel.png"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/mipmap-xhdpi-v26_ic_foreground.png.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/src/main/res/mipmap-xhdpi-v26/ic_foreground.png"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/mipmap-ldpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/src/main/res/mipmap-ldpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/mipmap-xxxhdpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/src/main/res/mipmap-xxxhdpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_home_lose.png.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_home_lose.png"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/mipmap-hdpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/src/main/res/mipmap-hdpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_home_pushbtn.png.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_home_pushbtn.png"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/mipmap-xxhdpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/src/main/res/mipmap-xxhdpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/mipmap-mdpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/src/main/res/mipmap-mdpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/mipmap-ldpi-v26_ic_foreground.png.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/src/main/res/mipmap-ldpi-v26/ic_foreground.png"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_home_cart.png.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_home_cart.png"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/mipmap-hdpi-v26_ic_foreground.png.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/src/main/res/mipmap-hdpi-v26/ic_foreground.png"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/mipmap-xhdpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/src/main/res/mipmap-xhdpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/trongnguyen/App/AppNoiChu/android/app/build/intermediates/merged_res/release/drawable-mdpi_src_assets_images_home_background.png.flat",
+        "source": "/Users/trongnguyen/App/AppNoiChu/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_home_background.png"
+    }
+]

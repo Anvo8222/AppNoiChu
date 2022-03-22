@@ -2,6 +2,7 @@ import { StyleSheet } from 'react-native';
 
 export const appStyle = StyleSheet.create({
   turn: {
+    fontFamily: 'Verdana',
     color: 'white',
     fontSize: 20,
     fontWeight: 'bold',
@@ -91,7 +92,7 @@ export const homeStyle = StyleSheet.create({
   inputNormal: {
     height: 50,
     width: 270,
-    borderColor: 'none',
+    borderColor: 'rgba(0,0,0,0)',
     backgroundColor: '#9a8a7f',
     borderRadius: 8,
     opacity: 0.8,
@@ -104,7 +105,7 @@ export const homeStyle = StyleSheet.create({
   inputFocus: {
     height: 50,
     width: 270,
-    borderColor: 'none',
+    borderColor: 'rgba(0,0,0,0)',
     backgroundColor: '#9a8a7f',
     borderRadius: 8,
     opacity: 1,
@@ -149,13 +150,11 @@ export const buttonStyle = StyleSheet.create({
     width: '45%',
     textAlign: 'center',
     padding: 5,
-    borderColor: 'black',
-    borderWidth: 2,
+    backgroundColor: `rgba(198,140,70,1)`,
     margin: 5,
     borderRadius: 10,
   },
   buttonText: {
-    backgroundColor: `#fff`,
     marginBottom: 5,
     paddingVertical: 10,
     paddingHorizontal: 10,
@@ -165,11 +164,13 @@ export const buttonStyle = StyleSheet.create({
     textAlign: 'center',
     fontSize: 18,
     fontWeight: 'bold',
+    fontFamily: 'Verdana',
   },
   textSmall: {
     color: '#000',
     textAlign: 'center',
     fontSize: 14,
     fontWeight: 'bold',
+    fontFamily: 'Verdana',
   },
 });

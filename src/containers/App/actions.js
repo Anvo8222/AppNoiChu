@@ -24,7 +24,7 @@ export const decrementTurn = (amount = 1) => ({
 export const requestData = () => ({
   type: REQUEST_DATA,
 });
-export const setInputCurren = inputCurren => ({
+export const setInputCurrent = inputCurrent => ({
   type: SET_INPUT_CURRENT,
-  inputCurren,
+  inputCurrent,
 });

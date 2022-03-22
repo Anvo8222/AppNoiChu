@@ -11,68 +11,45 @@ import {
 } from 'react-native';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
-import { decrementTurn, setInputCurren } from './actions';
-import { makeInputCurren, makeSelectTurn } from './selectors';
+import { checkEnoughWords, getLastWord } from 'utils/string';
+import { decrementTurn, setInputCurrent } from './actions';
+import { makeInputCurrent, makeSelectTurn } from './selectors';
 import { homeStyle } from './style';
 
-function Play({ dispatch, turn, inputCurren }) {
-  const [isFocus, setIsFocus] = useState(false);
-
-  const isHandleFocusInput = () => {
-    setIsFocus(true);
-  };
-  const isHandleBlurInput = () => {
-    setIsFocus(false);
-  };
+function Play({ dispatch, turn, inputCurrent }) {
   const [input, setInput] = useState('');
   const [isWin, setIsWin] = useState(false);
+  const [isShowStatusBar, setIsShowStatusBar] = useState(false);
+  const [isFocus, setIsFocus] = useState(false);
 
-  // ham kiem tra ô input nhập vào có đúng 2 từ không?
-  const isInput = () => {
-    if (input.toLowerCase().trim().split(' ').length === 2) {
-      return true;
-    }
-    return false;
+  const onFocusInput = () => {
+    setIsFocus(true);
   };
-  const checkIsInput = isInput();
+  const onBlurInput = () => {
+    setIsFocus(false);
+  };
 
-  const submitInput = () => {
+  const onSetInput = text => {
+    setInput(text);
+    setIsShowStatusBar(false);
+  };
+
+  const onSubmitInput = () => {
     if (turn <= 0) return false;
-    if (inputCurren === '') {
-      if (checkIsInput === true) {
-        dispatch(
-          setInputCurren(
-            input
-              .toLowerCase()
-              .trim()
-              .split(' ')[1]
-              .replace(/[^a-zA-Z ]/g, ''),
-          ),
-        );
-        dispatch(decrementTurn(1));
-        setInput('');
-      } else {
-        return Alert.alert('Warning!', 'Please enter two words.');
-      }
-    }
-    if (input !== '' && checkIsInput === true) {
-      if (inputCurren === input.trim().split(' ')[0]) {
-        dispatch(
-          setInputCurren(
-            input
-              .toLowerCase()
-              .trim()
-              .split(' ')[1]
-              .replace(/[^a-zA-Z ]/g, ''),
-          ),
-        );
-        setIsWin(true);
-        setInput('');
-      } else {
-        setIsWin(false);
-        dispatch(decrementTurn(1));
-      }
+    if (input !== '' && checkEnoughWords(input) === true) {
+      dispatch(
+        setInputCurrent(
+          input
+            .toLowerCase()
+            .trim()
+            .split(' ')[1]
+            .replace(/[^a-zA-Z ]/g, ''),
+        ),
+      );
       dispatch(decrementTurn(1));
+      setInput('');
+      setIsWin(inputCurrent === getLastWord(input));
+      setIsShowStatusBar(inputCurrent !== '');
     } else {
       return Alert.alert('Warning!', 'Please enter two words.');
     }
@@ -81,15 +58,17 @@ function Play({ dispatch, turn, inputCurren }) {
   return (
     <>
       <View style={[homeStyle.container, homeStyle.result]}>
-        <Image
-          style={homeStyle.loseWin}
-          source={isWin ? images.home.win : images.home.lose}
-        />
+        {isShowStatusBar && (
+          <Image
+            style={homeStyle.loseWin}
+            source={isWin ? images.home.win : images.home.lose}
+          />
+        )}
       </View>
       <View style={homeStyle.container}>
         <View style={[homeStyle.container, homeStyle.panel]}>
           <Image style={homeStyle.panelImg} source={images.home.panel} />
-          <Text style={homeStyle.panelText}>{inputCurren}</Text>
+          <Text style={homeStyle.panelText}>{inputCurrent}</Text>
         </View>
       </View>
       <View>
@@ -98,14 +77,14 @@ function Play({ dispatch, turn, inputCurren }) {
       <View style={homeStyle.container}>
         <TextInput
           value={input}
-          onFocus={isHandleFocusInput}
-          onBlur={isHandleBlurInput}
-          onChangeText={text => setInput(text)}
+          onFocus={onFocusInput}
+          onBlur={onBlurInput}
+          onChangeText={text => onSetInput(text)}
           style={isFocus ? homeStyle.inputFocus : homeStyle.inputNormal}
         />
       </View>
       <View style={homeStyle.container}>
-        <TouchableOpacity onPress={submitInput} onLongPress={submitInput}>
+        <TouchableOpacity onPress={onSubmitInput} onLongPress={onSubmitInput}>
           <Image style={homeStyle.pushBtn} source={images.home.pushBtn} />
         </TouchableOpacity>
       </View>
@@ -116,11 +95,11 @@ function Play({ dispatch, turn, inputCurren }) {
 Play.propTypes = {
   turn: PropTypes.number,
   dispatch: PropTypes.func,
-  inputCurren: PropTypes.number,
+  inputCurrent: PropTypes.string,
 };
 
 const mapStateToProps = createStructuredSelector({
-  inputCurren: makeInputCurren(),
+  inputCurrent: makeInputCurrent(),
   turn: makeSelectTurn(),
 });
 

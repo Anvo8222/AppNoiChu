@@ -1,4 +1,4 @@
-package com.dtapappdragoneggs;
+package com.woodwordlinkgam;
 
 import com.facebook.react.ReactActivity;
 

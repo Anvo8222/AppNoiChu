@@ -1,11 +1,11 @@
 const subs = [
   {
-    sku: 'egg_s_1000',
+    sku: 'ww2203_s_1000',
     value: 1000,
   },
   {
-    sku: 'egg_s_3000',
-    value: 3000,
+    sku: 'ww2203_s_5000',
+    value: 5000,
   },
 ];
 

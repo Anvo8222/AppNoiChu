@@ -1,0 +1,91 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.woodwordlinkgam"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/trongnguyen/App/AppNoiChu/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/trongnguyen/App/AppNoiChu/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/trongnguyen/App/AppNoiChu/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/trongnguyen/App/AppNoiChu/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="com.android.vending.BILLING" />
+12-->[com.android.billingclient:billing:4.0.0] /Users/trongnguyen/.gradle/caches/transforms-3/eea4453399b3808bcb8a433c23a5f809/transformed/jetified-billing-4.0.0/AndroidManifest.xml:10:5-67
+12-->[com.android.billingclient:billing:4.0.0] /Users/trongnguyen/.gradle/caches/transforms-3/eea4453399b3808bcb8a433c23a5f809/transformed/jetified-billing-4.0.0/AndroidManifest.xml:10:22-64
+13
+14    <application
+14-->/Users/trongnguyen/App/AppNoiChu/android/app/src/main/AndroidManifest.xml:6:5-23:19
+15        android:name="com.woodwordlinkgam.MainApplication"
+15-->/Users/trongnguyen/App/AppNoiChu/android/app/src/main/AndroidManifest.xml:7:7-38
+16        android:allowBackup="false"
+16-->/Users/trongnguyen/App/AppNoiChu/android/app/src/main/AndroidManifest.xml:10:7-34
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.6.0] /Users/trongnguyen/.gradle/caches/transforms-3/88262e2acf03b53dbbc7f81bfce1731f/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+18        android:icon="@mipmap/ic_launcher"
+18-->/Users/trongnguyen/App/AppNoiChu/android/app/src/main/AndroidManifest.xml:9:7-41
+19        android:label="@string/app_name"
+19-->/Users/trongnguyen/App/AppNoiChu/android/app/src/main/AndroidManifest.xml:8:7-39
+20        android:theme="@style/AppTheme" >
+20-->/Users/trongnguyen/App/AppNoiChu/android/app/src/main/AndroidManifest.xml:11:7-38
+21        <activity
+21-->/Users/trongnguyen/App/AppNoiChu/android/app/src/main/AndroidManifest.xml:12:7-22:18
+22            android:name="com.woodwordlinkgam.MainActivity"
+22-->/Users/trongnguyen/App/AppNoiChu/android/app/src/main/AndroidManifest.xml:13:9-37
+23            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+23-->/Users/trongnguyen/App/AppNoiChu/android/app/src/main/AndroidManifest.xml:15:9-86
+24            android:label="@string/app_name"
+24-->/Users/trongnguyen/App/AppNoiChu/android/app/src/main/AndroidManifest.xml:14:9-41
+25            android:launchMode="singleTask"
+25-->/Users/trongnguyen/App/AppNoiChu/android/app/src/main/AndroidManifest.xml:16:9-40
+26            android:windowSoftInputMode="adjustResize" >
+26-->/Users/trongnguyen/App/AppNoiChu/android/app/src/main/AndroidManifest.xml:17:9-51
+27            <intent-filter>
+27-->/Users/trongnguyen/App/AppNoiChu/android/app/src/main/AndroidManifest.xml:18:9-21:25
+28                <action android:name="android.intent.action.MAIN" />
+28-->/Users/trongnguyen/App/AppNoiChu/android/app/src/main/AndroidManifest.xml:19:13-65
+28-->/Users/trongnguyen/App/AppNoiChu/android/app/src/main/AndroidManifest.xml:19:21-62
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/Users/trongnguyen/App/AppNoiChu/android/app/src/main/AndroidManifest.xml:20:13-73
+30-->/Users/trongnguyen/App/AppNoiChu/android/app/src/main/AndroidManifest.xml:20:23-70
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->[com.google.android.gms:play-services-base:17.6.0] /Users/trongnguyen/.gradle/caches/transforms-3/8c4315551d06aad1a677790cf2b362a8/transformed/jetified-play-services-base-17.6.0/AndroidManifest.xml:23:9-26:75
+34            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+34-->[com.google.android.gms:play-services-base:17.6.0] /Users/trongnguyen/.gradle/caches/transforms-3/8c4315551d06aad1a677790cf2b362a8/transformed/jetified-play-services-base-17.6.0/AndroidManifest.xml:24:13-79
+35            android:exported="false"
+35-->[com.google.android.gms:play-services-base:17.6.0] /Users/trongnguyen/.gradle/caches/transforms-3/8c4315551d06aad1a677790cf2b362a8/transformed/jetified-play-services-base-17.6.0/AndroidManifest.xml:25:13-37
+36            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+36-->[com.google.android.gms:play-services-base:17.6.0] /Users/trongnguyen/.gradle/caches/transforms-3/8c4315551d06aad1a677790cf2b362a8/transformed/jetified-play-services-base-17.6.0/AndroidManifest.xml:26:13-72
+37
+38        <meta-data
+38-->[com.google.android.gms:play-services-basement:17.6.0] /Users/trongnguyen/.gradle/caches/transforms-3/e04bcc751834adb9ce9eb8a666e1bc8c/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:23:9-25:69
+39            android:name="com.google.android.gms.version"
+39-->[com.google.android.gms:play-services-basement:17.6.0] /Users/trongnguyen/.gradle/caches/transforms-3/e04bcc751834adb9ce9eb8a666e1bc8c/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:24:13-58
+40            android:value="@integer/google_play_services_version" />
+40-->[com.google.android.gms:play-services-basement:17.6.0] /Users/trongnguyen/.gradle/caches/transforms-3/e04bcc751834adb9ce9eb8a666e1bc8c/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:25:13-66
+41        <meta-data
+41-->[com.android.billingclient:billing:4.0.0] /Users/trongnguyen/.gradle/caches/transforms-3/eea4453399b3808bcb8a433c23a5f809/transformed/jetified-billing-4.0.0/AndroidManifest.xml:13:9-15:37
+42            android:name="com.google.android.play.billingclient.version"
+42-->[com.android.billingclient:billing:4.0.0] /Users/trongnguyen/.gradle/caches/transforms-3/eea4453399b3808bcb8a433c23a5f809/transformed/jetified-billing-4.0.0/AndroidManifest.xml:14:13-73
+43            android:value="4.0.0" />
+43-->[com.android.billingclient:billing:4.0.0] /Users/trongnguyen/.gradle/caches/transforms-3/eea4453399b3808bcb8a433c23a5f809/transformed/jetified-billing-4.0.0/AndroidManifest.xml:15:13-34
+44
+45        <activity
+45-->[com.android.billingclient:billing:4.0.0] /Users/trongnguyen/.gradle/caches/transforms-3/eea4453399b3808bcb8a433c23a5f809/transformed/jetified-billing-4.0.0/AndroidManifest.xml:17:9-21:75
+46            android:name="com.android.billingclient.api.ProxyBillingActivity"
+46-->[com.android.billingclient:billing:4.0.0] /Users/trongnguyen/.gradle/caches/transforms-3/eea4453399b3808bcb8a433c23a5f809/transformed/jetified-billing-4.0.0/AndroidManifest.xml:18:13-78
+47            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+47-->[com.android.billingclient:billing:4.0.0] /Users/trongnguyen/.gradle/caches/transforms-3/eea4453399b3808bcb8a433c23a5f809/transformed/jetified-billing-4.0.0/AndroidManifest.xml:19:13-96
+48            android:exported="false"
+48-->[com.android.billingclient:billing:4.0.0] /Users/trongnguyen/.gradle/caches/transforms-3/eea4453399b3808bcb8a433c23a5f809/transformed/jetified-billing-4.0.0/AndroidManifest.xml:20:13-37
+49            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+49-->[com.android.billingclient:billing:4.0.0] /Users/trongnguyen/.gradle/caches/transforms-3/eea4453399b3808bcb8a433c23a5f809/transformed/jetified-billing-4.0.0/AndroidManifest.xml:21:13-72
+50    </application>
+51
+52</manifest>

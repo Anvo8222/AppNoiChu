@@ -9,8 +9,8 @@ import {
 } from '../constants';
 
 export const initialState = {
-  turn: 50,
-  inputCurren: '',
+  turn: 5,
+  inputCurrent: '',
 };
 
 export default (state = initialState, action) =>
@@ -18,7 +18,7 @@ export default (state = initialState, action) =>
     // eslint-disable-next-line default-case
     switch (action.type) {
       case SET_INPUT_CURRENT:
-        draft.inputCurren = action.inputCurren;
+        draft.inputCurrent = action.inputCurrent;
         break;
       case SET_TURN:
         AsyncStorage.setItem('@turn', JSON.stringify(action.turn));
